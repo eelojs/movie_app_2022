@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let number = [273, 32, 57, 83, 34]
+        number = number.map(function () {
+            (value, index, array)
+            return value*value
+        })
+        number.forEach(console.log)
+    </script>
+    <script>
+        let fruits=['딸기','수박','사과'];
+        //map 함수를 사용해서 화이팅! 문자열을 teams 배열에 저장후 출력
+        let teams=['다균','제현','인화'];
+        teams=teams.map(function(value,index){
+            return value+"화이팅!!"
+        })
+        
+        document.write(teams)
+
+    </script>
+    
+</body>
+
+</html>
