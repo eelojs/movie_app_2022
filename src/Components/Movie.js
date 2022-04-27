@@ -25,3 +25,4 @@ function Movie({ title, year, summary, poster, genres }) {
 	)
 }
 	
+export default Movie;
